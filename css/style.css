@@ -1,10 +1,11 @@
+/*
 *,
 *::before,
 *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 a {
   text-decoration: none;
@@ -29,7 +30,6 @@ h4 {
 
 html,
 body {
-  height: 100%;
   font-family: "OpenSans", "Arial", sans-serif;
   color: #0f0d0e;
 }
@@ -124,10 +124,6 @@ body {
 }
 
 /*==========TRENDS==========*/
-.page {
-  width: 1200px;
-  margin: 0 auto;
-}
 
 .trends__caption {
   display: flex;
@@ -1195,7 +1191,6 @@ body {
   /* ==============MOBILE-ASIDE============*/
 
   .sidbar {
-    width: ;
     margin-top: 54px;
   }
 
