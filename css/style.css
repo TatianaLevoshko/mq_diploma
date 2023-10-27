@@ -51,7 +51,7 @@ body {
 }
 
 /*==========HEADER==========*/
-
+@media screen and (min-width: 1200px) {
 .header {
   position: relative;
   background-image: url(../images/banner-bg.jpg);
@@ -856,6 +856,7 @@ body {
   border: 0;
   margin-bottom: 24px;
   cursor: pointer;
+}
 }
 
 @media screen and (min-width: 641px) and (max-width: 1199px) {
