@@ -1,11 +1,11 @@
-/*
+
 *,
 *::before,
 *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} */
+}
 
 a {
   text-decoration: none;
@@ -232,6 +232,8 @@ body {
 .page-container {
   display: flex;
   padding: 63px 15px 0;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .main {
@@ -643,7 +645,7 @@ body {
 
 /*==========FOOTER==========*/
 .footer-link {
-  width: 92vw;
+  width: 92%;
   margin: auto;
   display: flex;
   justify-content: center;
