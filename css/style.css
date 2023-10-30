@@ -83,7 +83,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -123,6 +123,10 @@ body {
 }
 
 /*==========TRENDS==========*/
+.trends-wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
 
 .trends__caption {
   display: flex;
@@ -155,6 +159,7 @@ body {
   border: 3px solid #786e47;
   background-color: rgba(0, 0, 0, 0);
   z-index: 2;
+  
 }
 
 .trends__title {
@@ -190,7 +195,7 @@ body {
 }
 
 .trends-card {
-  max-width: 25%;
+  width: 25%;
   height: 319px;
   position: relative;
   display: flex;
@@ -231,14 +236,13 @@ body {
 .page-container {
   display: flex;
   padding: 63px 15px 0;
-  max-width: 1200px;
+  width: 1200px;
   margin: auto;
 }
 
 .main {
   display: flex;
   flex-wrap: wrap;
-  max-width: 1200px;
   margin-right: auto;
 }
 
@@ -257,7 +261,7 @@ body {
 }
 
 .img {
-  width: 381px;
+  width: 100%;
 }
 
 .content {
@@ -322,7 +326,7 @@ body {
 .content-text {
   font-size: 15px;
   line-height: 22px;
-  width: 367px;
+  width: 100%;
   font-weight: 400;
   color: #0f0d0e;
 }
@@ -549,7 +553,7 @@ body {
 /*==========PRODUCTS==========*/
 .products-wrapper {
   box-sizing: border-box;
-  max-width: 1200px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -574,11 +578,9 @@ body {
 
 .card-img {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: 204px;
   background-color: #999999;
-  height: 206px;
-  width: 300px;
   background-position: center;
   background-size: cover;
   object-fit: cover;
@@ -716,7 +718,7 @@ body {
 .popup-content {
   background-color: #fff;
   color: #000000;
-  max-width: 390px;
+  width: 390px;
   padding: 30px;
   position: relative;
 }
@@ -911,7 +913,7 @@ body {
 
   .welcome-title {
     font-size: 40px;
-    max-width: 620px;
+    width: 620px;
   }
 
   .menu__logo-link {
@@ -977,6 +979,7 @@ body {
     border-bottom: 4px solid #eeeeee;
     width: 100%;
     margin: auto;
+    margin-bottom: 41px;
   }
 
   .news:last-child {
@@ -1035,7 +1038,7 @@ body {
   }
 
   .card-img {
-    min-height: 230px;
+    height: 230px;
     width: 100%;
     max-width: 300px;
     margin: auto;
@@ -1092,7 +1095,7 @@ body {
     margin: 50px auto 0;
     font-size: 26px;
     line-height: 36px;
-    max-width: 330px;
+    width: 330px;
     outline: 2px dashed rgb(211, 22, 22);
   }
 
@@ -1117,7 +1120,7 @@ body {
 
   .trends-card {
     width: calc(100% - 2px);
-    min-height: 230px;
+    height: 230px;
     object-fit: cover;
   }
 
