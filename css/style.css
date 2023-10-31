@@ -1159,6 +1159,11 @@ body {
     margin-top: 6px;
   }
 
+  .img img {
+    width: 100%;
+    object-fit: cover;
+  }
+
   /* ================MOBILE-MAIN============= */
 
   .page-container {
