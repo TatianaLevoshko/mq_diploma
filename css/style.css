@@ -88,7 +88,6 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -961,7 +960,8 @@ body {
   .trends-container {
     padding-top: 30px;
     padding-left: 28px;
-    max-height: 220px;
+
+
     width: 100%;
   }
 
@@ -1080,15 +1080,6 @@ body {
   .trends-card {
     width: calc((100% - 4px * 3) / 4);
   }
-
-  .trends__title-link {
-    font-size: 15px;
-    line-height: 1.2;
-  }
-
-  .trends-container {
-    padding: 12px;
-   
 }
 
 /* ================MOBILE-POPUP============= */
@@ -1286,34 +1277,7 @@ body {
   }
 
   .trends-card {
-    width: calc((100% - 4px) / 2);
+    width: calc((100% - 4px * 3) / 4);
   }
-
-
-  .trends__title {
-    font-size: 17px;
-  }
-
-  .trends-container {
-    padding-top: 30px;
-    padding-left: 32px;
-    width: 100%;
-  }
-
-  .trends-title::after {
-    margin-bottom: 5px;
-  }
-
-  .trands__title-link {
-    font-size: 17px;
-    line-height: 22px;
-    margin-top: 6px;
-  }
-
-  .img img {
-    width: 100%;
-    object-fit: cover;
-  }
-
- 
 }
+
