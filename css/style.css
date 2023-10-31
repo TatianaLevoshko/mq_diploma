@@ -960,8 +960,7 @@ body {
   .trends-container {
     padding-top: 30px;
     padding-left: 28px;
-
-
+    max-height: 220px;
     width: 100%;
   }
 
@@ -1080,6 +1079,15 @@ body {
   .trends-card {
     width: calc((100% - 4px * 3) / 4);
   }
+
+  .trends__title-link {
+    font-size: 15px;
+    line-height: 1.2;
+  }
+
+  .trends-container {
+    padding: 12px;
+   
 }
 
 /* ================MOBILE-POPUP============= */
@@ -1272,4 +1280,18 @@ body {
 /* ==============MOBILE-LANDSCAPE============*/
 
 @media (max-width: 640px) and (orientation: landscape) {
+  .trends {
+    flex-wrap: wrap;
+  }
+
+  .trends-card {
+    width: calc((100% - 4px) / 2);
+  }
+
+  .img img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+ 
 }
