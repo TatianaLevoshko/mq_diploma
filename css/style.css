@@ -807,16 +807,13 @@ body {
   font-size: 13px;
 }
 
-.radio-group:nth-of-type(n + 2) {
-  margin-left: 12px;
-}
-
 .radio1 {
   display: none;
 }
 
-.radio-group:first-child {
-  margin-right: 15px;
+.radio-group-no {
+  position: absolute;
+  left: 55px;
 }
 
 .radio-yes {
