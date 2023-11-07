@@ -399,11 +399,13 @@ body {
   font-weight: 700;
 }
 
-.post-card-content-title a {
+.post-card-content-title .post-card-a {
   color: #000000;
+  text-decoration: none;
+  background-color: transparent;
 }
 
-.post-card-content-title a:hover {
+.post-card-content-title .post-card-a:hover {
   color: #b59f5b;
 }
 
